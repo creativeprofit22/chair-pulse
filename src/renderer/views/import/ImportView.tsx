@@ -31,14 +31,13 @@ export default function ImportView() {
     reset,
   } = useDataStore();
 
-  const handleFileSelected = useCallback(
-    async (filePath: string, fileName: string, fileSize: number) => {
+  const handleFileContent = useCallback(
+    async (content: string, fileName: string, fileSize: number) => {
       try {
         setImportStatus('importing');
         setImportFile({ name: fileName, size: fileSize });
 
-        const text = await window.electronAPI.readFile(filePath);
-        const result = parseBookingCsv(text);
+        const result = parseBookingCsv(content);
 
         if (result.headers.length === 0) {
           setImportError('CSV file appears to be empty or has no headers.');
@@ -129,7 +128,7 @@ export default function ImportView() {
       )}
 
       {importStatus === 'idle' || importStatus === 'error' ? (
-        <FileDropZone onFileSelected={handleFileSelected} />
+        <FileDropZone onFileContent={handleFileContent} />
       ) : importStatus === 'importing' ? (
         <div
           style={{

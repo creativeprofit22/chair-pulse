@@ -1,11 +1,11 @@
 import { useState, useCallback, type DragEvent } from 'react';
 
 interface FileDropZoneProps {
-  onFileSelected: (filePath: string, fileName: string, fileSize: number) => void;
+  onFileContent: (content: string, fileName: string, fileSize: number) => void;
   disabled?: boolean;
 }
 
-export default function FileDropZone({ onFileSelected, disabled }: FileDropZoneProps) {
+export default function FileDropZone({ onFileContent, disabled }: FileDropZoneProps) {
   const [isDragOver, setIsDragOver] = useState(false);
 
   const handleDragOver = useCallback(
@@ -33,22 +33,28 @@ export default function FileDropZone({ onFileSelected, disabled }: FileDropZoneP
 
       const file = e.dataTransfer.files[0];
       if (file && file.name.toLowerCase().endsWith('.csv')) {
-        // Electron adds `path` to File objects (absolute path on disk)
-        const filePath = (file as File & { path: string }).path;
-        onFileSelected(filePath, file.name, file.size);
+        // Read file content directly — File.path is stripped by sandbox: true
+        const reader = new FileReader();
+        reader.onload = () => {
+          if (typeof reader.result === 'string') {
+            onFileContent(reader.result, file.name, file.size);
+          }
+        };
+        reader.readAsText(file);
       }
     },
-    [onFileSelected, disabled],
+    [onFileContent, disabled],
   );
 
   const handleClick = useCallback(async () => {
     if (disabled) return;
     const filePath = await window.electronAPI.openFile();
     if (filePath) {
+      const text = await window.electronAPI.readFile(filePath);
       const name = filePath.split(/[/\\]/).pop() ?? 'file.csv';
-      onFileSelected(filePath, name, 0);
+      onFileContent(text, name, new Blob([text]).size);
     }
-  }, [onFileSelected, disabled]);
+  }, [onFileContent, disabled]);
 
   return (
     <div
