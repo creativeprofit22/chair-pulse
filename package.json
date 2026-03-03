@@ -1,0 +1,67 @@
+{
+  "name": "chair-pulse",
+  "version": "0.1.0",
+  "description": "Free salon booking analytics — no-show rates, utilization heatmaps, revenue per chair-hour, service mix analysis, and AI-powered recommendations.",
+  "main": "dist/main/index.js",
+  "author": "Douro Digital <hello@wearedouro.agency>",
+  "homepage": "https://wearedouro.agency",
+  "license": "MIT",
+  "scripts": {
+    "dev": "bun scripts/dev.mjs",
+    "build": "bun scripts/build.mjs",
+    "package": "bun run build && electron-builder --config electron-builder.yml",
+    "package:win": "bun run build && electron-builder --config electron-builder.yml --win",
+    "lint": "eslint src/ tests/",
+    "lint:fix": "eslint src/ tests/ --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,html}\" \"tests/**/*.{ts,tsx}\" \"*.config.ts\" \"eslint.config.mjs\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,css,html}\" \"tests/**/*.{ts,tsx}\" \"*.config.ts\" \"eslint.config.mjs\"",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "bun run typecheck && bun run lint && bun run format:check && bun run test",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{css,html,json,yml,yaml}": [
+      "prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "@eslint/js": "^9",
+    "@testing-library/jest-dom": "^6",
+    "@testing-library/react": "^16",
+    "@types/node": "^25",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^5",
+    "electron": "^40",
+    "electron-builder": "^26",
+    "esbuild": "^0.27",
+    "eslint": "^9",
+    "eslint-plugin-react-hooks": "^7",
+    "eslint-plugin-react-refresh": "^0.5",
+    "globals": "^17",
+    "husky": "^9",
+    "jsdom": "^28",
+    "lint-staged": "^16",
+    "prettier": "^3",
+    "react": "^19",
+    "react-dom": "^19",
+    "typescript": "^5.9",
+    "typescript-eslint": "^8",
+    "vite": "^7",
+    "vitest": "^4",
+    "zustand": "^5"
+  },
+  "dependencies": {
+    "echarts": "^6.0.0",
+    "jspdf": "^4.2.0",
+    "jspdf-autotable": "^5.0.7",
+    "papaparse": "^5.5.3"
+  }
+}

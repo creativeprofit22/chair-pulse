@@ -1,0 +1,81 @@
+Date,Time,Service,Duration,Price,Status,Staff,Client,Deposit Paid
+05/01/2025,09:00,Haircut,30,25.00,Completed,Sarah,John Smith,No
+05/01/2025,09:30,Beard Trim,20,15.00,Completed,Mike,Tom Jones,No
+05/01/2025,10:00,Colour & Cut,120,85.00,Completed,Sarah,Emma Wilson,Yes
+05/01/2025,10:30,Haircut,30,25.00,No Show,Mike,David Brown,No
+05/01/2025,11:00,Blowdry,45,35.00,Completed,Sarah,Lucy Taylor,No
+05/01/2025,11:30,Haircut,30,25.00,Completed,Mike,Chris Evans,No
+05/01/2025,12:00,Highlights,90,65.00,Completed,Sarah,Anna Green,Yes
+05/01/2025,13:00,Haircut,30,25.00,Cancelled,Mike,Ben White,No
+05/01/2025,14:00,Cut & Finish,45,40.00,Completed,Sarah,Rachel Adams,No
+05/01/2025,14:30,Beard Trim,20,15.00,Completed,Mike,Sam Harris,No
+05/01/2025,15:00,Colour & Cut,120,85.00,No Show,Sarah,Julie Martin,No
+05/01/2025,15:30,Haircut,30,25.00,Completed,Mike,Peter Clark,No
+05/01/2025,16:00,Blowdry,45,35.00,Completed,Sarah,Kate Lewis,No
+05/01/2025,16:30,Haircut,30,25.00,Completed,Mike,James Hall,No
+05/01/2025,17:00,Cut & Finish,45,40.00,Rescheduled,Sarah,Mary Young,No
+06/01/2025,09:00,Haircut,30,25.00,Completed,Mike,Alan Walker,No
+06/01/2025,09:30,Colour & Cut,120,85.00,Completed,Sarah,Diana King,Yes
+06/01/2025,10:00,Beard Trim,20,15.00,No Show,Mike,Steve Wright,No
+06/01/2025,10:30,Highlights,90,65.00,Completed,Sarah,Laura Scott,Yes
+06/01/2025,11:00,Haircut,30,25.00,Completed,Mike,Paul Baker,No
+06/01/2025,11:30,Cut & Finish,45,40.00,Completed,Sarah,Jane Cooper,No
+06/01/2025,12:00,Haircut,30,25.00,Completed,Mike,Gary Hill,No
+06/01/2025,13:00,Blowdry,45,35.00,Cancelled,Sarah,Fiona Gray,No
+06/01/2025,13:30,Haircut,30,25.00,Completed,Mike,Ian Moore,No
+06/01/2025,14:00,Colour & Cut,120,85.00,Completed,Sarah,Carol Turner,Yes
+06/01/2025,14:30,Beard Trim,20,15.00,Completed,Mike,Nick Phillips,No
+06/01/2025,15:00,Haircut,30,25.00,No Show,Mike,Keith Roberts,No
+06/01/2025,15:30,Highlights,90,65.00,Completed,Sarah,Sue Mitchell,No
+06/01/2025,16:00,Cut & Finish,45,40.00,Completed,Sarah,Amy Wood,No
+06/01/2025,16:30,Haircut,30,25.00,Completed,Mike,Craig Morris,No
+07/01/2025,09:00,Haircut,30,25.00,Completed,Sarah,Liam Hughes,No
+07/01/2025,09:30,Beard Trim,20,15.00,Completed,Mike,Dan Carter,No
+07/01/2025,10:00,Colour & Cut,120,85.00,Completed,Sarah,Sophie Bell,Yes
+07/01/2025,10:30,Haircut,30,25.00,Completed,Mike,Ryan Kelly,No
+07/01/2025,11:00,Blowdry,45,35.00,No Show,Sarah,Helen Price,No
+07/01/2025,11:30,Haircut,30,25.00,Completed,Mike,Mark Dixon,No
+07/01/2025,12:00,Highlights,90,65.00,Rescheduled,Sarah,Beth Murphy,No
+07/01/2025,13:00,Haircut,30,25.00,Completed,Mike,Owen Jenkins,No
+07/01/2025,13:30,Cut & Finish,45,40.00,Completed,Sarah,Zoe Russell,No
+07/01/2025,14:00,Beard Trim,20,15.00,Completed,Mike,Will Gibson,No
+07/01/2025,14:30,Colour & Cut,120,85.00,No Show,Sarah,Chloe Watson,No
+07/01/2025,15:00,Haircut,30,25.00,Completed,Mike,Matt Brooks,No
+07/01/2025,15:30,Blowdry,45,35.00,Completed,Sarah,Ella Hayes,No
+07/01/2025,16:00,Haircut,30,25.00,Completed,Mike,Jack Ford,No
+07/01/2025,16:30,Cut & Finish,45,40.00,Completed,Sarah,Mia Palmer,No
+08/01/2025,09:00,Haircut,30,25.00,Completed,Mike,Leo Stone,No
+08/01/2025,09:30,Colour & Cut,120,85.00,Completed,Sarah,Olivia Grant,Yes
+08/01/2025,10:00,Beard Trim,20,15.00,Completed,Mike,Harry Reed,No
+08/01/2025,10:30,Highlights,90,65.00,Completed,Sarah,Grace Cole,No
+08/01/2025,11:00,Haircut,30,25.00,No Show,Mike,Theo Black,No
+08/01/2025,11:30,Cut & Finish,45,40.00,Completed,Sarah,Ruby Lane,No
+08/01/2025,12:00,Haircut,30,25.00,Completed,Mike,Archie West,No
+08/01/2025,13:00,Blowdry,45,35.00,Completed,Sarah,Lily Fox,No
+08/01/2025,13:30,Beard Trim,20,15.00,Cancelled,Mike,Noah Hunt,No
+08/01/2025,14:00,Colour & Cut,120,85.00,Completed,Sarah,Isla Webb,Yes
+08/01/2025,14:30,Haircut,30,25.00,Completed,Mike,Oscar Day,No
+08/01/2025,15:00,Highlights,90,65.00,No Show,Sarah,Poppy Hart,No
+08/01/2025,15:30,Haircut,30,25.00,Completed,Mike,Alfie Cross,No
+08/01/2025,16:00,Cut & Finish,45,40.00,Completed,Sarah,Ava Shaw,No
+08/01/2025,16:30,Haircut,30,25.00,Completed,Mike,Max Long,No
+09/01/2025,09:00,Haircut,30,25.00,Completed,Sarah,Freya Dunn,No
+09/01/2025,09:30,Beard Trim,20,15.00,Completed,Mike,Henry Page,No
+09/01/2025,10:00,Colour & Cut,120,85.00,Completed,Sarah,Piper Snow,Yes
+09/01/2025,10:30,Haircut,30,25.00,No Show,Mike,Felix Moon,No
+09/01/2025,11:00,Blowdry,45,35.00,Completed,Sarah,Ivy Carr,No
+09/01/2025,11:30,Haircut,30,25.00,Completed,Mike,Arthur Howe,No
+09/01/2025,12:00,Highlights,90,65.00,Completed,Sarah,Willow Drake,Yes
+09/01/2025,13:00,Haircut,30,25.00,Rescheduled,Mike,George Nash,No
+09/01/2025,13:30,Cut & Finish,45,40.00,Completed,Sarah,Daisy Wolfe,No
+09/01/2025,14:00,Beard Trim,20,15.00,Completed,Mike,Jasper Flynn,No
+09/01/2025,14:30,Colour & Cut,120,85.00,No Show,Sarah,Flora Marsh,No
+09/01/2025,15:00,Haircut,30,25.00,Completed,Mike,Hugo Kent,No
+09/01/2025,15:30,Blowdry,45,35.00,Completed,Sarah,Elsa Quinn,No
+09/01/2025,16:00,Haircut,30,25.00,Completed,Mike,Ezra Bloom,No
+09/01/2025,16:30,Cut & Finish,45,40.00,Cancelled,Sarah,Pearl Frost,No
+10/01/2025,09:00,Haircut,30,25.00,Completed,Mike,Toby Vance,No
+10/01/2025,09:30,Colour & Cut,120,85.00,Completed,Sarah,Nora Blake,Yes
+10/01/2025,10:00,Beard Trim,20,15.00,Completed,Mike,Axel Roy,No
+10/01/2025,10:30,Highlights,90,65.00,Completed,Sarah,Wren Chase,No
+10/01/2025,11:00,Haircut,30,25.00,No Show,Mike,Caleb York,No

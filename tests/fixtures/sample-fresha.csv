@@ -1,0 +1,81 @@
+Booking Date,Booking Time,Service Name,Duration (min),Total Price,Booking Status,Team Member,Client Name,Deposit Status
+05/01/2025,09:00,Haircut,30,£25.00,Completed,Sarah,John Smith,Not Paid
+05/01/2025,09:30,Beard Trim,20,£15.00,Completed,Mike,Tom Jones,Not Paid
+05/01/2025,10:00,Colour & Cut,120,£85.00,Completed,Sarah,Emma Wilson,Paid
+05/01/2025,10:30,Haircut,30,£25.00,No Show,Mike,David Brown,Not Paid
+05/01/2025,11:00,Blowdry,45,£35.00,Completed,Sarah,Lucy Taylor,Not Paid
+05/01/2025,11:30,Haircut,30,£25.00,Completed,Mike,Chris Evans,Not Paid
+05/01/2025,12:00,Highlights,90,£65.00,Completed,Sarah,Anna Green,Paid
+05/01/2025,13:00,Haircut,30,£25.00,Cancelled,Mike,Ben White,Not Paid
+05/01/2025,14:00,Cut & Finish,45,£40.00,Completed,Sarah,Rachel Adams,Not Paid
+05/01/2025,14:30,Beard Trim,20,£15.00,Completed,Mike,Sam Harris,Not Paid
+05/01/2025,15:00,Colour & Cut,120,£85.00,No Show,Sarah,Julie Martin,Not Paid
+05/01/2025,15:30,Haircut,30,£25.00,Completed,Mike,Peter Clark,Not Paid
+05/01/2025,16:00,Blowdry,45,£35.00,Completed,Sarah,Kate Lewis,Not Paid
+05/01/2025,16:30,Haircut,30,£25.00,Completed,Mike,James Hall,Not Paid
+05/01/2025,17:00,Cut & Finish,45,£40.00,Rescheduled,Sarah,Mary Young,Not Paid
+06/01/2025,09:00,Haircut,30,£25.00,Completed,Mike,Alan Walker,Not Paid
+06/01/2025,09:30,Colour & Cut,120,£85.00,Completed,Sarah,Diana King,Paid
+06/01/2025,10:00,Beard Trim,20,£15.00,No Show,Mike,Steve Wright,Not Paid
+06/01/2025,10:30,Highlights,90,£65.00,Completed,Sarah,Laura Scott,Paid
+06/01/2025,11:00,Haircut,30,£25.00,Completed,Mike,Paul Baker,Not Paid
+06/01/2025,11:30,Cut & Finish,45,£40.00,Completed,Sarah,Jane Cooper,Not Paid
+06/01/2025,12:00,Haircut,30,£25.00,Completed,Mike,Gary Hill,Not Paid
+06/01/2025,13:00,Blowdry,45,£35.00,Cancelled,Sarah,Fiona Gray,Not Paid
+06/01/2025,13:30,Haircut,30,£25.00,Completed,Mike,Ian Moore,Not Paid
+06/01/2025,14:00,Colour & Cut,120,£85.00,Completed,Sarah,Carol Turner,Paid
+06/01/2025,14:30,Beard Trim,20,£15.00,Completed,Mike,Nick Phillips,Not Paid
+06/01/2025,15:00,Haircut,30,£25.00,No Show,Mike,Keith Roberts,Not Paid
+06/01/2025,15:30,Highlights,90,£65.00,Completed,Sarah,Sue Mitchell,Not Paid
+06/01/2025,16:00,Cut & Finish,45,£40.00,Completed,Sarah,Amy Wood,Not Paid
+06/01/2025,16:30,Haircut,30,£25.00,Completed,Mike,Craig Morris,Not Paid
+07/01/2025,09:00,Haircut,30,£25.00,Completed,Sarah,Liam Hughes,Not Paid
+07/01/2025,09:30,Beard Trim,20,£15.00,Completed,Mike,Dan Carter,Not Paid
+07/01/2025,10:00,Colour & Cut,120,£85.00,Completed,Sarah,Sophie Bell,Paid
+07/01/2025,10:30,Haircut,30,£25.00,Completed,Mike,Ryan Kelly,Not Paid
+07/01/2025,11:00,Blowdry,45,£35.00,No Show,Sarah,Helen Price,Not Paid
+07/01/2025,11:30,Haircut,30,£25.00,Completed,Mike,Mark Dixon,Not Paid
+07/01/2025,12:00,Highlights,90,£65.00,Rescheduled,Sarah,Beth Murphy,Not Paid
+07/01/2025,13:00,Haircut,30,£25.00,Completed,Mike,Owen Jenkins,Not Paid
+07/01/2025,13:30,Cut & Finish,45,£40.00,Completed,Sarah,Zoe Russell,Not Paid
+07/01/2025,14:00,Beard Trim,20,£15.00,Completed,Mike,Will Gibson,Not Paid
+07/01/2025,14:30,Colour & Cut,120,£85.00,No Show,Sarah,Chloe Watson,Not Paid
+07/01/2025,15:00,Haircut,30,£25.00,Completed,Mike,Matt Brooks,Not Paid
+07/01/2025,15:30,Blowdry,45,£35.00,Completed,Sarah,Ella Hayes,Not Paid
+07/01/2025,16:00,Haircut,30,£25.00,Completed,Mike,Jack Ford,Not Paid
+07/01/2025,16:30,Cut & Finish,45,£40.00,Completed,Sarah,Mia Palmer,Not Paid
+08/01/2025,09:00,Haircut,30,£25.00,Completed,Mike,Leo Stone,Not Paid
+08/01/2025,09:30,Colour & Cut,120,£85.00,Completed,Sarah,Olivia Grant,Paid
+08/01/2025,10:00,Beard Trim,20,£15.00,Completed,Mike,Harry Reed,Not Paid
+08/01/2025,10:30,Highlights,90,£65.00,Completed,Sarah,Grace Cole,Not Paid
+08/01/2025,11:00,Haircut,30,£25.00,No Show,Mike,Theo Black,Not Paid
+08/01/2025,11:30,Cut & Finish,45,£40.00,Completed,Sarah,Ruby Lane,Not Paid
+08/01/2025,12:00,Haircut,30,£25.00,Completed,Mike,Archie West,Not Paid
+08/01/2025,13:00,Blowdry,45,£35.00,Completed,Sarah,Lily Fox,Not Paid
+08/01/2025,13:30,Beard Trim,20,£15.00,Cancelled,Mike,Noah Hunt,Not Paid
+08/01/2025,14:00,Colour & Cut,120,£85.00,Completed,Sarah,Isla Webb,Paid
+08/01/2025,14:30,Haircut,30,£25.00,Completed,Mike,Oscar Day,Not Paid
+08/01/2025,15:00,Highlights,90,£65.00,No Show,Sarah,Poppy Hart,Not Paid
+08/01/2025,15:30,Haircut,30,£25.00,Completed,Mike,Alfie Cross,Not Paid
+08/01/2025,16:00,Cut & Finish,45,£40.00,Completed,Sarah,Ava Shaw,Not Paid
+08/01/2025,16:30,Haircut,30,£25.00,Completed,Mike,Max Long,Not Paid
+09/01/2025,09:00,Haircut,30,£25.00,Completed,Sarah,Freya Dunn,Not Paid
+09/01/2025,09:30,Beard Trim,20,£15.00,Completed,Mike,Henry Page,Not Paid
+09/01/2025,10:00,Colour & Cut,120,£85.00,Completed,Sarah,Piper Snow,Paid
+09/01/2025,10:30,Haircut,30,£25.00,No Show,Mike,Felix Moon,Not Paid
+09/01/2025,11:00,Blowdry,45,£35.00,Completed,Sarah,Ivy Carr,Not Paid
+09/01/2025,11:30,Haircut,30,£25.00,Completed,Mike,Arthur Howe,Not Paid
+09/01/2025,12:00,Highlights,90,£65.00,Completed,Sarah,Willow Drake,Paid
+09/01/2025,13:00,Haircut,30,£25.00,Rescheduled,Mike,George Nash,Not Paid
+09/01/2025,13:30,Cut & Finish,45,£40.00,Completed,Sarah,Daisy Wolfe,Not Paid
+09/01/2025,14:00,Beard Trim,20,£15.00,Completed,Mike,Jasper Flynn,Not Paid
+09/01/2025,14:30,Colour & Cut,120,£85.00,No Show,Sarah,Flora Marsh,Not Paid
+09/01/2025,15:00,Haircut,30,£25.00,Completed,Mike,Hugo Kent,Not Paid
+09/01/2025,15:30,Blowdry,45,£35.00,Completed,Sarah,Elsa Quinn,Not Paid
+09/01/2025,16:00,Haircut,30,£25.00,Completed,Mike,Ezra Bloom,Not Paid
+09/01/2025,16:30,Cut & Finish,45,£40.00,Cancelled,Sarah,Pearl Frost,Not Paid
+10/01/2025,09:00,Haircut,30,£25.00,Completed,Mike,Toby Vance,Not Paid
+10/01/2025,09:30,Colour & Cut,120,£85.00,Completed,Sarah,Nora Blake,Paid
+10/01/2025,10:00,Beard Trim,20,£15.00,Completed,Mike,Axel Roy,Not Paid
+10/01/2025,10:30,Highlights,90,£65.00,Completed,Sarah,Wren Chase,Not Paid
+10/01/2025,11:00,Haircut,30,£25.00,No Show,Mike,Caleb York,Not Paid
